@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDAB68872CAEECD500CE7964 /* GymSeshApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAB68862CAEECD500CE7964 /* GymSeshApp.swift */; };
+		DDAB68892CAEECD500CE7964 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAB68882CAEECD500CE7964 /* ContentView.swift */; };
+		DDAB688B2CAEECD800CE7964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDAB688A2CAEECD800CE7964 /* Assets.xcassets */; };
+		DDAB688E2CAEECD800CE7964 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDAB688D2CAEECD800CE7964 /* Preview Assets.xcassets */; };
+		DDAB68982CAEECD800CE7964 /* GymSeshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAB68972CAEECD800CE7964 /* GymSeshTests.swift */; };
+		DDAB68A22CAEECD800CE7964 /* GymSeshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAB68A12CAEECD800CE7964 /* GymSeshUITests.swift */; };
+		DDAB68A42CAEECD800CE7964 /* GymSeshUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAB68A32CAEECD800CE7964 /* GymSeshUITestsLaunchTests.swift */; };
+		DDAB68B12CAEF21400CE7964 /* NewWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAB68B02CAEF21400CE7964 /* NewWorkoutView.swift */; };
+		DDAB68B32CAEF52600CE7964 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAB68B22CAEF52600CE7964 /* TitleView.swift */; };
+		DDAB68B52CAEFAC400CE7964 /* WorkoutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAB68B42CAEFAC400CE7964 /* WorkoutDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDAB68942CAEECD800CE7964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDAB687B2CAEECD500CE7964 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDAB68822CAEECD500CE7964;
+			remoteInfo = GymSesh;
+		};
+		DDAB689E2CAEECD800CE7964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDAB687B2CAEECD500CE7964 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDAB68822CAEECD500CE7964;
+			remoteInfo = GymSesh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDAB68832CAEECD500CE7964 /* GymSesh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymSesh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDAB68862CAEECD500CE7964 /* GymSeshApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymSeshApp.swift; sourceTree = "<group>"; };
+		DDAB68882CAEECD500CE7964 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DDAB688A2CAEECD800CE7964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDAB688D2CAEECD800CE7964 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDAB68932CAEECD800CE7964 /* GymSeshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymSeshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDAB68972CAEECD800CE7964 /* GymSeshTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymSeshTests.swift; sourceTree = "<group>"; };
+		DDAB689D2CAEECD800CE7964 /* GymSeshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymSeshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDAB68A12CAEECD800CE7964 /* GymSeshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymSeshUITests.swift; sourceTree = "<group>"; };
+		DDAB68A32CAEECD800CE7964 /* GymSeshUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymSeshUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DDAB68B02CAEF21400CE7964 /* NewWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWorkoutView.swift; sourceTree = "<group>"; };
+		DDAB68B22CAEF52600CE7964 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		DDAB68B42CAEFAC400CE7964 /* WorkoutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDAB68802CAEECD500CE7964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAB68902CAEECD800CE7964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAB689A2CAEECD800CE7964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDAB687A2CAEECD500CE7964 = {
+			isa = PBXGroup;
+			children = (
+				DDAB68852CAEECD500CE7964 /* GymSesh */,
+				DDAB68962CAEECD800CE7964 /* GymSeshTests */,
+				DDAB68A02CAEECD800CE7964 /* GymSeshUITests */,
+				DDAB68842CAEECD500CE7964 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDAB68842CAEECD500CE7964 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDAB68832CAEECD500CE7964 /* GymSesh.app */,
+				DDAB68932CAEECD800CE7964 /* GymSeshTests.xctest */,
+				DDAB689D2CAEECD800CE7964 /* GymSeshUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDAB68852CAEECD500CE7964 /* GymSesh */ = {
+			isa = PBXGroup;
+			children = (
+				DDAB68862CAEECD500CE7964 /* GymSeshApp.swift */,
+				DDAB68882CAEECD500CE7964 /* ContentView.swift */,
+				DDAB68B02CAEF21400CE7964 /* NewWorkoutView.swift */,
+				DDAB68B22CAEF52600CE7964 /* TitleView.swift */,
+				DDAB68B42CAEFAC400CE7964 /* WorkoutDetailView.swift */,
+				DDAB688A2CAEECD800CE7964 /* Assets.xcassets */,
+				DDAB688C2CAEECD800CE7964 /* Preview Content */,
+			);
+			path = GymSesh;
+			sourceTree = "<group>";
+		};
+		DDAB688C2CAEECD800CE7964 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DDAB688D2CAEECD800CE7964 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DDAB68962CAEECD800CE7964 /* GymSeshTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDAB68972CAEECD800CE7964 /* GymSeshTests.swift */,
+			);
+			path = GymSeshTests;
+			sourceTree = "<group>";
+		};
+		DDAB68A02CAEECD800CE7964 /* GymSeshUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDAB68A12CAEECD800CE7964 /* GymSeshUITests.swift */,
+				DDAB68A32CAEECD800CE7964 /* GymSeshUITestsLaunchTests.swift */,
+			);
+			path = GymSeshUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDAB68822CAEECD500CE7964 /* GymSesh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDAB68A72CAEECD800CE7964 /* Build configuration list for PBXNativeTarget "GymSesh" */;
+			buildPhases = (
+				DDAB687F2CAEECD500CE7964 /* Sources */,
+				DDAB68802CAEECD500CE7964 /* Frameworks */,
+				DDAB68812CAEECD500CE7964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GymSesh;
+			productName = GymSesh;
+			productReference = DDAB68832CAEECD500CE7964 /* GymSesh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDAB68922CAEECD800CE7964 /* GymSeshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDAB68AA2CAEECD800CE7964 /* Build configuration list for PBXNativeTarget "GymSeshTests" */;
+			buildPhases = (
+				DDAB688F2CAEECD800CE7964 /* Sources */,
+				DDAB68902CAEECD800CE7964 /* Frameworks */,
+				DDAB68912CAEECD800CE7964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDAB68952CAEECD800CE7964 /* PBXTargetDependency */,
+			);
+			name = GymSeshTests;
+			productName = GymSeshTests;
+			productReference = DDAB68932CAEECD800CE7964 /* GymSeshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDAB689C2CAEECD800CE7964 /* GymSeshUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDAB68AD2CAEECD800CE7964 /* Build configuration list for PBXNativeTarget "GymSeshUITests" */;
+			buildPhases = (
+				DDAB68992CAEECD800CE7964 /* Sources */,
+				DDAB689A2CAEECD800CE7964 /* Frameworks */,
+				DDAB689B2CAEECD800CE7964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDAB689F2CAEECD800CE7964 /* PBXTargetDependency */,
+			);
+			name = GymSeshUITests;
+			productName = GymSeshUITests;
+			productReference = DDAB689D2CAEECD800CE7964 /* GymSeshUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDAB687B2CAEECD500CE7964 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DDAB68822CAEECD500CE7964 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					DDAB68922CAEECD800CE7964 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DDAB68822CAEECD500CE7964;
+					};
+					DDAB689C2CAEECD800CE7964 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DDAB68822CAEECD500CE7964;
+					};
+				};
+			};
+			buildConfigurationList = DDAB687E2CAEECD500CE7964 /* Build configuration list for PBXProject "GymSesh" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDAB687A2CAEECD500CE7964;
+			productRefGroup = DDAB68842CAEECD500CE7964 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDAB68822CAEECD500CE7964 /* GymSesh */,
+				DDAB68922CAEECD800CE7964 /* GymSeshTests */,
+				DDAB689C2CAEECD800CE7964 /* GymSeshUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDAB68812CAEECD500CE7964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAB688E2CAEECD800CE7964 /* Preview Assets.xcassets in Resources */,
+				DDAB688B2CAEECD800CE7964 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAB68912CAEECD800CE7964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAB689B2CAEECD800CE7964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDAB687F2CAEECD500CE7964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAB68B12CAEF21400CE7964 /* NewWorkoutView.swift in Sources */,
+				DDAB68B52CAEFAC400CE7964 /* WorkoutDetailView.swift in Sources */,
+				DDAB68892CAEECD500CE7964 /* ContentView.swift in Sources */,
+				DDAB68872CAEECD500CE7964 /* GymSeshApp.swift in Sources */,
+				DDAB68B32CAEF52600CE7964 /* TitleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAB688F2CAEECD800CE7964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAB68982CAEECD800CE7964 /* GymSeshTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAB68992CAEECD800CE7964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAB68A22CAEECD800CE7964 /* GymSeshUITests.swift in Sources */,
+				DDAB68A42CAEECD800CE7964 /* GymSeshUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDAB68952CAEECD800CE7964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDAB68822CAEECD500CE7964 /* GymSesh */;
+			targetProxy = DDAB68942CAEECD800CE7964 /* PBXContainerItemProxy */;
+		};
+		DDAB689F2CAEECD800CE7964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDAB68822CAEECD500CE7964 /* GymSesh */;
+			targetProxy = DDAB689E2CAEECD800CE7964 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DDAB68A52CAEECD800CE7964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDAB68A62CAEECD800CE7964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDAB68A82CAEECD800CE7964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GymSesh/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aidanddow.GymSesh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDAB68A92CAEECD800CE7964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GymSesh/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aidanddow.GymSesh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDAB68AB2CAEECD800CE7964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aidanddow.GymSeshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GymSesh.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GymSesh";
+			};
+			name = Debug;
+		};
+		DDAB68AC2CAEECD800CE7964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aidanddow.GymSeshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GymSesh.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GymSesh";
+			};
+			name = Release;
+		};
+		DDAB68AE2CAEECD800CE7964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aidanddow.GymSeshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GymSesh;
+			};
+			name = Debug;
+		};
+		DDAB68AF2CAEECD800CE7964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aidanddow.GymSeshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GymSesh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDAB687E2CAEECD500CE7964 /* Build configuration list for PBXProject "GymSesh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAB68A52CAEECD800CE7964 /* Debug */,
+				DDAB68A62CAEECD800CE7964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDAB68A72CAEECD800CE7964 /* Build configuration list for PBXNativeTarget "GymSesh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAB68A82CAEECD800CE7964 /* Debug */,
+				DDAB68A92CAEECD800CE7964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDAB68AA2CAEECD800CE7964 /* Build configuration list for PBXNativeTarget "GymSeshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAB68AB2CAEECD800CE7964 /* Debug */,
+				DDAB68AC2CAEECD800CE7964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDAB68AD2CAEECD800CE7964 /* Build configuration list for PBXNativeTarget "GymSeshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAB68AE2CAEECD800CE7964 /* Debug */,
+				DDAB68AF2CAEECD800CE7964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDAB687B2CAEECD500CE7964 /* Project object */;
+}
